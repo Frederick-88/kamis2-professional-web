@@ -96,6 +96,7 @@
     font-weight: bold!important;
     font-size: 20px!important;
     margin-top: 30px;
+    border: -0;
 }
 .button-fx-1:hover{
     padding: 16px 60px!important;
@@ -114,6 +115,7 @@
     font-weight: bold!important;
     font-size: 20px!important;
     margin-top: 30px;   
+    border: -0;
 }
 .button-fx-2:hover{
     padding: 16px 60px!important;

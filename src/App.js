@@ -18,7 +18,8 @@ function App() {
     <Route path="/works" component={Works}></Route>
     <Route path="/service" component={Service}></Route>
     <Route path="/hire" component={Hire}></Route>
-    <Route path="/" component={Contents}></Route>    
+    <Route exact path="/" component={Contents}></Route>    
+      
       </Switch>
       <Footer/>
     </Router>
