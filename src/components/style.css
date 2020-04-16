@@ -1,9 +1,27 @@
+.div-utama{
+    margin-top: 70px;
+}
 .navbar-fx{
     background-color:#ad974f ;
+    /* display: flex;
+    justify-content: space-around; */
 }
 .nav-link-fx{
+    padding-top: 17px;
     color:#EAEAEA!important;
     font-weight: bold;
+    padding-left: 40px;
+}
+.nav-link-utama{
+    color:#EAEAEA!important;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+.nav-link-utama:hover{
+    text-decoration: none;
 }
 
 /* IMG */
@@ -11,11 +29,38 @@
     width: 400px;
     height: 400px;
 }
+.img-transparent{
+    margin-bottom: 40px;
+  opacity: 0.3;
+  background-color: #231f20;
+
+}
+
+.img-works{
+    width: 100%;
+}
 
 /* TEXT */
 .text-fx-1{
-    font-size: 30px;
+    font-size: 28px;
     color: #EAEAEA;
+    font-weight: bold;
+}
+.center-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EAEAEA;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.parallax-text{
+    color: #EAEAEA;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 110px;
 }
 
 /* COL */
@@ -29,33 +74,98 @@
     justify-content: center;
 }
 
-/* ROW */
+/* DIV */
 .div-bg-1{
+    background-color: #231f20;
+}
+.div-bg-2{
+    background-color: #231f20;
+}
+.div-bg-3{
+    display: flex;
+    justify-content: center;
     background-color: #231f20;
 }
 
 /* BUTTON */
 .button-fx-1{
     padding: 16px 60px!important;
-    background-color: #ad974f!important;
-    color: #231f20!important;
+    background-color: transparent!important;
+    outline: #ad974f solid 4px;
+    color: #EAEAEA!important;
     font-weight: bold!important;
     font-size: 20px!important;
     margin-top: 30px;
 }
+.button-fx-1:hover{
+    padding: 16px 60px!important;
+    background-color: #EAEAEA!important;
+    outline: none;
+    color: #ad974f!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    margin-top: 30px;
+}
+.button-fx-2{
+    padding: 16px 60px!important;
+    background-color: #ad974f!important;
+    outline: #ad974f solid 4px;
+    color: #EAEAEA!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    margin-top: 30px;   
+}
+.button-fx-2:hover{
+    padding: 16px 60px!important;
+    background-color: #EAEAEA!important;
+    outline: #EAEAEA solid 4px;
+    color: #ad974f!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    margin-top: 30px;   
+}
 
 /* RECTANGLE */
 .rectangle-fx{
-    background-color: #ad974f;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-    padding: 10px;
-}
-.rectangle-fx-2{
     background-color: #EAEAEA;
+    color: #231f20;
     text-align: center;
     font-weight: bold;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* HEADER */
+.header-fx{
+    color: #EAEAEA;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* PARALLAX */
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(135deg,
+            rgba(15, 15, 15, 0.9) 0%,
+            rgba(14, 14, 14, 0.8) 100%),
+        url("../components/assets/work-parallax.jpg");
+
+    /* Full height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer{
+    background-color: #ad974f;
+    color: #EAEAEA;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }

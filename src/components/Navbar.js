@@ -1,24 +1,28 @@
 import React from "react";
 import {Nav, Navbar} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import "./style.css"
-import Logo from "./assets/logo.png"
 
 const NavbarUtama = () => {
   return (
-    <Navbar className="navbar-fx">
-      <Navbar><img
+    <Navbar className="navbar-fx" fixed="top">
+        
+      {/* <Navbar><img
         src={Logo}
         width="50px"
         height="50px"
         className="d-inline-block align-top"
         alt="logo"
-      /></Navbar>
+      /></Navbar> */}
+
       <Nav className="mr-auto">
-        <Nav.Link className="nav-link-fx" href="#home">HOME</Nav.Link>
-        <Nav.Link className="nav-link-fx" href="#features">WORKS</Nav.Link>
-        <Nav.Link className="nav-link-fx" href="#pricing">SERVICES</Nav.Link>
-        <Nav.Link className="nav-link-fx" href="#pricing">HIRE ME</Nav.Link>
+      <Link className="nav-link-utama" to="/">FD.TECHNOLOGIES</Link>
+        <Link className="nav-link-fx" to="/">HOME</Link>
+        <Link className="nav-link-fx" to="/works"> WORKS</Link>
+        <Link className="nav-link-fx" to="/service">SERVICES</Link>
+        <Link className="nav-link-fx" to="/hire">HIRE ME</Link>
       </Nav>
+
     </Navbar>
   );
 };
