@@ -1,0 +1,18 @@
+{
+    "Services" : [
+    {
+        "id":1,
+        "title":"UI-Design",
+        "subtitle":"ui-design",
+        "article":"In the process of making interfaces in software or computerized devices with a focus on looks or style. We also aim to create designs that users will find easy to use and pleasurable. Give the best for maximum result, is our vision.",
+        "img-URL":"https://cdn.dribbble.com/users/1294892/screenshots/11075707/media/06cf9ffa018b9652727e934b9e95c210.png"
+    },
+    {
+        "id":2,
+        "title":"Web-Development",
+        "subtitle":"Web-Development",
+        "article":"In the process of making interfaces in software or computerized devices with a focus on looks or style. We also aim to create designs that users will find easy to use and pleasurable. Give the best for maximum result, is our vision.",
+        "img-URL":"https://cdn.dribbble.com/users/1294892/screenshots/11075707/media/06cf9ffa018b9652727e934b9e95c210.png"
+    }
+]
+}

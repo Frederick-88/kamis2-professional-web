@@ -64,11 +64,11 @@ class Content extends React.Component {
             <div className="row">
               <div className="col">
                 <img src={Work} className="img-transparent" alt="..."></img>
-                <p className="center-text">APP DEVELOPMENT</p>
+                <p className="center-text">MOBILE WEB APPLICATION</p>
               </div>
               <div className="col">
                 <img src={Work} className="img-transparent" alt="..."></img>
-                <p className="center-text">APP DESIGN</p>
+                <p className="center-text">WEB DESIGNING</p>
               </div>
             </div>
           </Container>
