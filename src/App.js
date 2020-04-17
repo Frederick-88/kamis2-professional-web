@@ -8,6 +8,7 @@ import Works from "./components/works";
 // KEMUDIAN untuk akses 1 folder itu, dibutuhkan switch dan route, untuk menentukan lokasi mana yng mreka tuju.
 import Service from "./components/Service/Index"
 import Hire from "./components/Hire"
+import Article from "./components/Article/Index"
 import Footer from "./components/Footer"
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path="/works" component={Works}></Route>
     <Route path="/service" component={Service}></Route>
     <Route path="/hire" component={Hire}></Route>
+    <Route path="/article" component={Article}></Route>
     <Route exact path="/" component={Contents}></Route>    
       
       </Switch>

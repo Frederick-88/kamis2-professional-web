@@ -16,11 +16,12 @@ const NavbarUtama = () => {
       /></Navbar> */}
 
       <Nav className="mr-auto">
-      <Link className="nav-link-utama" to="/">FD.TECHNOLOGIES</Link>
+      <Link className="nav-link-utama" to="/">FD-TECHNOLOGIES</Link>
         <Link className="nav-link-fx" to="/">HOME</Link>
         <Link className="nav-link-fx" to="/works"> WORKS</Link>
         <Link className="nav-link-fx" to="/service">SERVICES</Link>
         <Link className="nav-link-fx" to="/hire">HIRE ME</Link>
+        <Link className="nav-link-fx" to="/article">MY SERVICES ARTICLES</Link>
       </Nav>
 
     </Navbar>
