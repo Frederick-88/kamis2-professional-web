@@ -66,7 +66,7 @@
 
 /* COL */
 .col-fx-1{
-    margin-top: 50px;
+    margin-top: 100px;
     color: #EAEAEA;
     text-align: center;
 }
@@ -127,6 +127,14 @@
     font-size: 20px!important;
     margin-top: 30px;   
 }
+.submit-button{
+    padding: 16px 60px!important;
+    background-color: #EAEAEA!important;
+    color: #ad974f!important;
+    font-weight: bold!important;
+    font-size: 20px!important;
+    margin-top: 30px;    
+}
 
 /* RECTANGLE */
 .rectangle-fx{
@@ -177,4 +185,10 @@
     background-color: #231f20;
     display: flex;
     justify-content: center;
+}
+
+.label-fx{
+    height: 45px;
+    font-size: 25px;
+    width: 70%;
 }

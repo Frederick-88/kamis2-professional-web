@@ -1,9 +1,19 @@
 {
-    "Email" : [
+  "Email": [
     {
-        "id":"1",
-        "name" : "Frederick",
-        "email" : "Frederickfd88@gmail.com"
+      "id": "1",
+      "name": "Frederick",
+      "email": "Frederickfd88@gmail.com"
+    },
+    {
+      "name": "Jennie",
+      "email": "jass_derick_alek@yahoo.co.id",
+      "id": "2E0riy6"
+    },
+    {
+      "name": "Kevin",
+      "email": "You're-below-me@gmail.com",
+      "id": "wsX8xQz"
     }
-]
+  ]
 }

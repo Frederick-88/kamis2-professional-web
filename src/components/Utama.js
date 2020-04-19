@@ -20,7 +20,7 @@ class Content extends React.Component {
                 <br />
                 <Link to="/hire"><Button className="button-fx-1">HIRE ME</Button></Link>
               </div>
-              <div className="col-fx-2 col">
+              <div className="col-fx-2 col mt-3">
                 <img className="img-fx-1" src={Logo} alt="logo..."></img>
               </div>
             </div>
