@@ -19,8 +19,11 @@ const WebDevelop = () => {
       </Link>
 
       <Switch>
-        <Route path={`${url}/portolio`}>
+        <Route path={`${url}/portofolio`}>
           <WebDevPortolio />
+        </Route>
+        <Route path={`${url}`}>
+          kkk
         </Route>
       </Switch>
     </div>

@@ -51,9 +51,11 @@ class NavbarUtama extends Component {
                       onChange = {this.onChange}
                   />
                 </div>
-                <div className="text-center">
+
+                <div className="col">
                 <button type="submit" className="submit-button ">Yes, Let's start this Great Work!</button>
                 </div>
+                
               </form>
             </div>
         </div>
